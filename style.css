@@ -26,7 +26,6 @@ nav ul li a {
 
 nav ul li:hover a {
     color: #afafaf; 
-    box-shadow: 0 0 20px 10px #616161;
 }
 
 nav ul {
@@ -58,7 +57,7 @@ main {
 .gato img {
     max-width: 100%;
     width: 300px;
-    height: auto;
+    height: 280px;
 }
 
 footer {
