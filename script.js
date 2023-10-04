@@ -1,4 +1,3 @@
-// Crear una nueva sección de gato
 function crearSeccionGato(imgSrc, gatoNombre, gatoDescripcion, gatoId) {
     const main = document.querySelector("main");
 
@@ -238,7 +237,7 @@ encabezado.forEach((encabezados) => {
     encabezados.addEventListener('click', cambiarColor);
 });
 
-// Función para agregar un comentario a una sección de gato
+// Función para agregar un comentario
 function agregarComentario(gatoId) {
     const comentarioInput = document.getElementById(`${gatoId}`);
     const comentarioTexto = comentarioInput.value;
